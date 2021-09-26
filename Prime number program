@@ -8,12 +8,12 @@ int main()
     result=prime(num);
     if(result==1)
     {
-        printf("Prime number");
+        printf("%d is a Prime number",num);
        
     }
     else
     {
-        printf("Composite number");
+        printf("%d is not a Prime number",num);
         
     }
     return 0;
@@ -33,5 +33,4 @@ int prime(int num)
             
         }
     }
-
 }
